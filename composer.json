@@ -1,0 +1,66 @@
+{
+  "name": "ziptied/bedrock",
+  "description": "Azure Commercial Marketplace SaaS integration for Laravel applications.",
+  "type": "library",
+  "keywords": [
+    "laravel",
+    "azure",
+    "marketplace",
+    "saas",
+    "billing",
+    "metering"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ziptied/bedrock",
+  "support": {
+    "issues": "https://github.com/ziptied/bedrock/issues",
+    "source": "https://github.com/ziptied/bedrock"
+  },
+  "authors": [
+    {
+      "name": "Ziptied",
+      "email": "support@ziptied.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^11.0",
+    "illuminate/http": "^11.0",
+    "illuminate/events": "^11.0",
+    "illuminate/database": "^11.0",
+    "illuminate/queue": "^11.0",
+    "illuminate/bus": "^11.0",
+    "illuminate/cache": "^11.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0|^9.0",
+    "pestphp/pest": "^2.0",
+    "pestphp/pest-plugin-laravel": "^2.0",
+    "mockery/mockery": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ziptied\\Bedrock\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ziptied\\Bedrock\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ziptied\\Bedrock\\AzureMarketplaceServiceProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/pest"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}

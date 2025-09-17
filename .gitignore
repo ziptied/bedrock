@@ -1,0 +1,21 @@
+# PHP / Laravel package artifacts
+/vendor/
+/node_modules/
+/.phpunit.result.cache
+/.phpunit.cache
+/.php-cs-fixer.cache
+/.php_cs.cache
+/composer.lock
+/phpunit.xml
+
+# Environment & local tooling
+.env
+.env.*
+/.idea/
+/.vscode/
+/.fleet/
+.phpstorm.meta.php
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

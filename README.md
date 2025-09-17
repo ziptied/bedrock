@@ -3,9 +3,10 @@
 Azure Commercial Marketplace SaaS plumbing for Laravel applications. Bedrock replaces the Microsoft SaaS Accelerator with a first-class, testable package that integrates cleanly with Laravel's queues, events, HTTP client, and Cashier-compatible database layout.
 
 <p align="center">
-    <a href="https://github.com/ziptied/bedrock/actions"><img src="https://github.com/ziptied/bedrock/actions/workflows/tests.yml/badge.svg" alt="CI"></a>
-    <a href="https://packagist.org/packages/ziptied/bedrock"><img src="https://img.shields.io/packagist/v/ziptied/bedrock.svg" alt="Packagist"></a>
-    <a href="https://packagist.org/packages/ziptied/bedrock"><img src="https://img.shields.io/packagist/php-v/ziptied/bedrock.svg" alt="PHP Version"></a>
+    <a href="https://github.com/ziptied/bedrock/actions/workflows/tests.yml"><img src="https://github.com/ziptied/bedrock/actions/workflows/tests.yml/badge.svg?branch=main" alt="Tests"></a>
+    <a href="https://packagist.org/packages/ziptied/bedrock"><img src="https://img.shields.io/packagist/v/ziptied/bedrock.svg?label=packagist" alt="Packagist"></a>
+    <a href="https://packagist.org/packages/ziptied/bedrock"><img src="https://img.shields.io/packagist/dt/ziptied/bedrock.svg?label=downloads" alt="Downloads"></a>
+    <a href="https://packagist.org/packages/ziptied/bedrock"><img src="https://img.shields.io/packagist/php-v/ziptied/bedrock.svg?label=php" alt="PHP Version"></a>
 </p>
 
 ## Highlights

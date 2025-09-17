@@ -77,13 +77,6 @@ Tests execute inside an in-memory SQLite database via Orchestra Testbench. Custo
 4. Include Pest tests for any new or modified actions.
 5. Submit a pull request describing your changes.
 
-Security vulnerabilities or disclosures should be reported privately to [support@ziptied.com](mailto:support@ziptied.com).
-
-## Releasing on Packagist
-
-1. Ensure `composer.json` is updated with the desired version constraints and metadata.
-2. Tag a semantic version (for example, `git tag v1.0.0 && git push origin v1.0.0`).
-3. Submit the repository URL to [Packagist](https://packagist.org/packages/submit) or enable auto-updates via GitHub integration.
 
 ## License
 
